@@ -10,7 +10,6 @@ import {
 import { Suspense } from "react";
 
 export default async function Page() {
-  await new Promise((res) => setTimeout(res, 3000));
   return (
     <main>
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
